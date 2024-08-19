@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+body {
+  @apply overflow-x-hidden;
+}
+
+
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+html.dark body {
+  background-color: #121212; /* Darker background color */
+  color: #e0e0e0; /* Light text color for dark mode */
+}
+
+/* Additional styles for video container */
+.video-container {
+  background-color: #1f1f1f; /* Dark background for video container */
+}
+
+html.dark .video-container {
+  background-color: #000000; /* Even darker background for video container in dark mode */
+}
+
+/* @media (min-width: 1024px) {
+  .lg\:grid-cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 2fr)) !important;
+  }
+} */
